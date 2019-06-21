@@ -18,9 +18,6 @@ then
 		echo -e "\t$NO) ${SERIAL_ARRAY[$NO]} ${USB_ARRAY[$NO]} ${PRODUCT_ARRAY[$NO]} ${MODEL_ARRAY[$NO]}"
 	done
 
-
-
-
 	echo -e "\t *) ALL; Be Careful!; Only Can Do Some Commands!!"
 
 	echo -en "\n\tdevice number: "
