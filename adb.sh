@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# writtend by yjpark(absolujin@gmail.com)
-# date: 2017.03.24.
+# writtend by absolujin@gmail.com
+# date: 2019.06.21.
 
 DEVICES="$(adb devices -l | grep -v attached | grep -n device)"
 COUNT=`echo "$DEVICES" | wc -l`
@@ -17,6 +17,9 @@ then
 	do
 		echo -e "\t$NO) ${SERIAL_ARRAY[$NO]} ${USB_ARRAY[$NO]} ${PRODUCT_ARRAY[$NO]} ${MODEL_ARRAY[$NO]}"
 	done
+
+
+
 
 	echo -e "\t *) ALL; Be Careful!; Only Can Do Some Commands!!"
 
